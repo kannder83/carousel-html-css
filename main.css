@@ -74,10 +74,32 @@
   opacity: 1;
 }
 
-.carousel-item__details img {
-  width: 20px;
-  height: 20px;
+.carosel-item__details-content {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.item-play {
+  width: 25px;
+  height: 25px;
   margin-right: 10px;
+  background-image: url("./img/tocar.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: inline-block;
+}
+
+.item-plus {
+  width: 25px;
+  height: 25px;
+  margin-right: 10px;
+  background-image: url("./img/add.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: inline-block;
 }
 
 .carousel-item__details--title {
@@ -92,4 +114,5 @@
 .carousel-item__details--subtitle {
   color: rgb(196, 196, 196);
   margin-top: 5px;
+  text-align: right;
 }
